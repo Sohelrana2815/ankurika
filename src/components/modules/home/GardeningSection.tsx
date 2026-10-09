@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import ServiceBookingForm from "./ServiceBookingForm";
 
 export default function GardeningSection() {
@@ -7,7 +7,6 @@ export default function GardeningSection() {
     <section className="relative w-full py-16 lg:py-24 bg-background">
       <div className="max-w-[1536px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center max-w-6xl mx-auto">
-          
           {/* Left Column: Text & CTA */}
           <div className="lg:col-span-7 space-y-6">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-foreground leading-tight">
@@ -34,7 +33,6 @@ export default function GardeningSection() {
           <div className="lg:col-span-5 w-full">
             <ServiceBookingForm />
           </div>
-
         </div>
       </div>
     </section>

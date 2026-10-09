@@ -1,6 +1,6 @@
-import GardeningSection from "@/components/modules/GardeningSection";
-import HeroSection from "@/components/modules/HeroSection";
-import ProductsServicesSection from "@/components/modules/ProductsServicesSection";
+import HeroSection from "@/components/modules/home/HeroSection";
+import ProductsServicesSection from "@/components/modules/home/ProductsServicesSection";
+import GardeningSection from "@/components/modules/home/GardeningSection";
 
 export default function HomePage() {
   return (
