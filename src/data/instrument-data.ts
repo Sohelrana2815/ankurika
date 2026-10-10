@@ -1,0 +1,51 @@
+export const instruments = [
+  {
+    id: 1,
+    title: "হাতের কোদাল (Hand Trowel)",
+    paragraph: "Metal with Wood Handle",
+    price: 450,
+    image: "/assets/instruments/instrument-1.jpg",
+  },
+  {
+    id: 2,
+    title: "ছাঁটাই কাঁচি (Pruning Shears)",
+    paragraph: "Ergonomic Handle",
+    price: 1200,
+    image: "/assets/instruments/instrument-2.jpg",
+  },
+  {
+    id: 3,
+    title: "কাট যন্ত্র",
+    paragraph: "Pruning",
+    price: 1200,
+    image: "/assets/instruments/instrument-3.jpg",
+  },
+  {
+    id: 4,
+    title: "জল দেওয়ার ক্যান (Watering Can)",
+    paragraph: "5L capacity",
+    price: 800,
+    image: "/assets/instruments/instrument-4.jpg",
+  },
+  {
+    id: 5,
+    title: "বাগানের রেক (Garden Rake)",
+    paragraph: "Metal with long handle",
+    price: 1500,
+    image: "/assets/instruments/instrument-5.jpg",
+  },
+  {
+    id: 6,
+    title: "খন্তি ও কোদাল সেট (Spade & Mini tools)",
+    paragraph: "Mini tools",
+    price: 600,
+    image: "/assets/instruments/instrument-6.jpg",
+  },
+  {
+    id: 7,
+    title: "বাগানের গ্লাভস (Garden Gloves)",
+    paragraph: "Reinforced palms",
+    price: 250,
+    image: "/assets/instruments/instrument-7.jpg",
+  },
+];

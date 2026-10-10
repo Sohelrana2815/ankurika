@@ -1,6 +1,9 @@
+import PlantWithPotSection from "@/components/modules/plant-with-pot/PlantWithPotSection";
 
 export default function PlantWithPotPage() {
   return (
-    <div>PlantWithPotPage</div>
-  )
+    <main className="min-h-screen bg-background text-foreground">
+      <PlantWithPotSection />
+    </main>
+  );
 }
